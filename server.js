@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 //Create instance of express named app 
 const app = express();
-const apiKey = '109e948f95fba312c87d5508d6eedced';
+const apiKey = 'YOUR_API_HERE';
 
 //Allow the use of static files
 app.use(express.static('public'));
